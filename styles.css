@@ -1,0 +1,101 @@
+header{
+    background-color: #4acab2;
+}
+.signInBtn{
+    font-family: Pacifico;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.signInBtn > a{
+    color: #050505;
+    font-size: 22px;
+}
+#navbarNav{
+    font-family: Pacifico;
+    font-size: 35px;
+    font-weight: 400;
+}
+.nav-item > a{
+    color: #361425 !important;
+}
+.nav-item > a:hover{
+    text-decoration: underline;
+}
+.signInBtn + a{
+    font-size: 0;
+}
+.signInBtn + a > img{
+    width: 25px;
+    height: 25px;
+}
+
+.banner{
+    background: url(assets/баннер.jpg) 50% 50%/cover, rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    height: 900px;
+}
+.banner > div{
+    height: 100%;
+}
+.banner > div > div {
+    height: 100%;
+}
+.bannerText{
+    line-height: 50px;
+    color: #fbfbfb;
+    font-family: "PT Serif";
+    font-size: 30px;
+}
+.topSalesTtl{
+    margin: 50px 0; 
+    text-align: center;
+    color: #361425;
+    font-family: Pacifico;
+    font-size: 38px;
+}
+.topSales{
+    text-align: center;
+}
+.topSalesImgs{
+    width: 240px;
+    height: 300px;
+}
+.Ttl + .row{
+color: #361425;
+font-family: "PT Serif";
+font-size: 17px;
+}
+.topSalesImgs + div{
+    margin: 20px 0; 
+}
+.articles{
+    padding: 50px 0;
+    
+    text-align: center;
+    color: #040404;
+}
+.section-background-mint{
+    background-color: #4acab2;
+}
+.section-background-blue{
+    background-color:#bceee7;
+}
+.articleTtl{
+    font-family: Pacifico;
+    font-size: 30px;
+}
+.imgForArticles{
+    width: 600px;
+    height: 450px;
+}
+.articleTtl + p{
+    color: #040404;
+    font-family: "PT Serif";
+    font-size: 15px;
+    line-height: 30px;
+}
+footer{
+    padding: 20px 0 20px 10px;
+    background-color: #bacfcc; 
+}
